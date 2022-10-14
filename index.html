@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Tienda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="app">
+      <nav style="display: flex;">
+        <div style="display: inline-block; height: 40px; padding: 5px 0; margin-right: 10px; width: 10%">
+          <img src="/vite.svg" height="40" alt="logo">
+        </div>
+        <div style="height: 50px; line-height: 50px; display: inline-block; text-align: left; flex-grow: 1;">
+          Mi Tienda
+        </div>
+
+        <div class="cart-btn-parent" style="height: 50px; line-height: 50px; display: inline-block; text-align: left; flex-grow: 1; max-width: 300px">
+          <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-counter">0</span>
+          </button>
+          <div class="inner-cart d-none" style="overflow-y: auto">
+            <div class="container">
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/Sc8f6dcd9b39d4a0fbab2dda7f459eecaq.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">Audifonos</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/H40edd8c49fd346bf9dfbd5776457ee93j.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">Videojuego</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/S4d96889c82224edba31ac8401f178b7bC.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">Video Beam</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/S0f628aab5d19472ab62ce12d25ed4c3cs.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">Mini Drone</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/S5a1132a674b743afb171d1581b12afa3F.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">Smart Watch</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row">
+                <div class="col row" style="padding: 10px 15px; max-height: 50px;">
+
+                  <div class="col-md-4" style="max-height: 50px;">
+                    <img style="max-width: 50px;" src="https://ae01.alicdn.com/kf/Sae74c2b79fe34bfbb43f4cdedbf07af9Z.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <h6 style="color: #000; display: inline;">USB Drive</h6>
+                  </div>
+                  <div class="col-md-4" style="line-height: 50px;">
+                    <input type="number" value="1" style="display: inline; max-width: 50px;">
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- <h3 style="line-height: 50px; display: inline-block; margin: 0;">Vite App</h6> -->
+        
+      </nav>
+
+      <main style="margin-top: 50px;">
+
+        <section id="products">
+          <div class="container">
+            <h2>Mi tienda de electrónicos</h2>
+            <div class="row">
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>Audifonos</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/Sc8f6dcd9b39d4a0fbab2dda7f459eecaq.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  <h5>$9.95</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>Videojuego retro</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/H40edd8c49fd346bf9dfbd5776457ee93j.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  <h5>$10.95</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>Video Beam</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/S4d96889c82224edba31ac8401f178b7bC.jpg_350x350.jpg_480x480Q90.webp" alt="">
+                  <h5>$19.95</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>Mini Drone 4K</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/S0f628aab5d19472ab62ce12d25ed4c3cs.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  <h5>$2.99</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>Smart Watch</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/S5a1132a674b743afb171d1581b12afa3F.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  <h5>$33.31</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+              <div class="col col-md-4">
+                <div class="card">
+                  <h4>USB 3.0 Drive</h4>
+                  <img style="max-width: 200px;" src="https://ae01.alicdn.com/kf/Sae74c2b79fe34bfbb43f4cdedbf07af9Z.jpg_220x220.webp_480x480Q90.webp" alt="">
+                  <h5>$1.61</h5>
+                  <button class="add-btn">Agregar al carrito</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="h1">Copyright ® Todos los derechos reservados</div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
